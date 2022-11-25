@@ -5,11 +5,9 @@ module.exports = router.use(
     '/',
     // authorization,
     [
-        require('./get.router'),
-        require('./findByUid.router'),
-        require('./find.router'),
-        require('./put.router'),
-        require('./delete.router'),
-        require('./post.router'),
+        require('./getMargenBruto.router'),
+        require('./getInventarioPromedio.router'),
+        require('./getTopTres.router'),
+        require('./getVendidosPorcentaje.router'),
     ]
 );
